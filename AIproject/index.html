@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stock Sentiment Analysis</h1>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Enter company name">
+            <ul id="suggestionsList"></ul>
+            <button type="submit">Search</button>
+        </form>
+        <div id="chartContainer">
+            <canvas id="stockChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: #e9e9e9;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#chartContainer {
+    margin-top: 40px;
+    height: 300px;
+}
